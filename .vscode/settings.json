@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.(js|ts|jsx|tsx|css|html|json|py)$",
+                "cmd": "git add . && git diff --cached --quiet || (git commit -m \"Auto update\" && git push)"
+            }
+        ]
+    }
+}
