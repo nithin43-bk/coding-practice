@@ -15,3 +15,4 @@ print("Enter the english marks")
 english=int(input())
 total=maths+science+english
 print("Total marks:", total)
+#Testing automatic push
