@@ -19,3 +19,4 @@ average = total / 3
 print("Student Name:", name)
 print("Total Marks:", total)
 print("Average Marks:", average)
+#Testing automatic push
